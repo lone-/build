@@ -188,7 +188,7 @@ TARGET_CUSTOM_LD_COMMAND := true
 
 # Enable the Dalvik JIT compiler if not already specified.
 ifeq ($(strip $(WITH_JIT)),)
-    WITH_JIT := true
+#    WITH_JIT := true
 endif
 
 define transform-o-to-shared-lib-inner
